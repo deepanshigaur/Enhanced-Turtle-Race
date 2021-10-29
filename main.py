@@ -20,20 +20,40 @@ leonardo.goto(-100,-20)
 
 ## 5. your code goes here
 def race(michelangelo,leonardo):
+	'''
+	makes both the turtles race each other in the random range of (0,10)
+	args: (turtle)Turtle
+	return: none
+	'''
 	for racingTurtles in range (0,10):
 		michelangelo.forward(random.randrange(0,10))
 		leonardo.forward(random.randrange(0, 10))
 
 def winner(michelangelo,leonardo):
+	'''
+	Returns the winner of the race
+	args: (turtle)Turtle
+	return: (string) winner
+	'''
 	return michelangelo.pos() > leonardo.pos()
 
 def positonTurtle(michelangelo,leonardo):
+	'''
+	prints the position of the turtles
+	args: (turtle)Turtle
+	return: none
+	'''
 	michelangelo.pos()
 	leonardo.pos()
 	print("michelangelo position: ",michelangelo.pos())
 	print("leonardo.position: ",leonardo.pos()) 
 	
 def distance(michelangelo,leonardo):
+	'''
+	returns the calculated distance between both the runners
+	args: (turtle)Turtle
+	return: (float ) winner coordinates
+	'''
 	return michelangelo.pos()-leonardo.pos()
 		
 # Part B - complete part B here

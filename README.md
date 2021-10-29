@@ -8,17 +8,19 @@
 _Replace anything surrounded by the `< >` symbols._
 
 ## SUMMARY:
-What did you clean up?:
+What did you clean up?: made the code more precise and got rid of all the recurring codes
 
-Summary of function(s) added:
+Summary of function(s) added: 1) added a function that tells who the winner of the race is.
+			      2) added a function that tells the position coordinates of the runners
+			      3) added a function that tells the distance between the winner and loser
 
-Summary of Feature Added:
+Summary of Feature Added: asks the user to guess the winner and tells if their guess is correct or not
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
- < What parts of the project you were not able to complete >
+none
 
 ## REFERENCES:
- < List any outside resources used >
+none
 
 ## MISCELLANEOUS COMMENTS:
- < Anything you would like the grader to know >
+none
