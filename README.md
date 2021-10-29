@@ -14,7 +14,7 @@ Summary of function(s) added: 1) added a function that tells who the winner of t
 			      2) added a function that tells the position coordinates of the runners
 			      3) added a function that tells the distance between the winner and loser
 
-Summary of Feature Added: asks the user to guess the winner and tells if their guess is correct or not and if the user enter any other name than runners then it asks to guess again.
+Summary of Feature Added: asks the user to guess the winner and tells if their guess is correct or not and if the user enter any other name than runners then it asks to guess again. lastly, shows the winner's name on the trackfield
 
 ## KNOWN BUGS AND INCOMPLETE PARTS:
 none
